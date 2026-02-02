@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  border: border-box;
+  font-family: arial;;
+}
+.navbar{
+  background-color: black;
+  height:60px;
+}
+.navbar2{
+  background-color:  #232F3E;
+  height:40px;
+  display:flex;
+}
+#whiteborder:hover{
+  border:2px solid white;
+}
+h2{
+  color: black;
+  text-align: center;
+}
+
+#header2{
+  display: inline-block;
+  font-size:14px;
+  color: white;
+  height:38.5px;
+  margin:0px 10px 0px 10px;
+  align-content: center;
+  border:1.5px solid transparent;
+}
+#header2:hover{
+  border:2px solid white;
+}
+.pic1{
+  background-image: url("/pic1.jpg");
+  background-size: cover;
+  height:300px;
+
+
+}
+.amazonlogo{
+  display: inline-block;
+  height: 60px;
+  width:130px;
+  margin-left:10px;
+  margin-bottom: 5px;
+  
+  background-image: url("/Amazon-Emblem.jpg");
+  background-size:cover;
+}
+.products{
+  display: flex;
+  background-color:rgba(0, 0, 0, 0.062);
+  height:450px;
+}
+.products2{
+  display: flex;
+  background-color:rgba(0, 0, 0, 0.062);
+  height:500px;
+
+}
+#picinside{
+  width:280px;
+  height: 280px;
+  display: inline-block;
+  margin:27px ;
+background-size:cover;
+}
+.pics1{
+   background-image:url("/download.jpg");
+}
+.pics2{
+   background-image:url("/download\ \(1\).jpg");
+}
+.pics3{
+   background-image:url("/download\ \(2\).jpg");
+}
+.pics4{
+   background-image:url("/download\ \(3\).jpg");
+}
+.pics5{
+   background-image:url("/download\ \(4\).jpg");
+}
+.pics6{
+   background-image:url("/download\ \(5\).jpg");
+}
+.pics7{
+   background-image:url("/download\ \(7\).jpg");
+}
+.pics8{
+   background-image:url("/images.jpg");
+}
+.pr{
+  display: inline-block;
+  background-color: white;
+  margin: 45px 22px 20px 22px;
+  justify-content: space-evenly;
+
+  height: 400px;
+  width:335px;
+}
+
+#initialfooter{
+  background-color:#37475A;
+  height:40px;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  /* margin-top:px; */
+}
+.footer1{
+  height:400px;
+  background-color: #232F3E;
+  display: flex;
+  
+}
+.skip{
+  height:400px;
+  width:150px;
+  display: inline-block;
+}
+.taken{
+  margin: 50px 0px 50px 0px;
+  height: 300px;
+  width:200px;
+  display: inline-block;
+  font-size: 14px;
+  
+}
+#one{
+  color: white;
+  text-align: left;
+}
+
+
+#end1{
+  /* border:0.1px solid white; */
+  height:0.8px;
+  background-color:white ;
+
+}
+#end2{
+  height:100px;
+  background-color: #131A22;
+  display: flex;
+
+}
+#two{
+  display: inline-block;
+  color:white;
+  margin: 30px 550px 0px 550px;
+  
+}

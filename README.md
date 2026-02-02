@@ -13,7 +13,7 @@ This repository contains my practice and project built using **HTML5** and **CSS
 - Product Card Layouts  
 - Navigation Bars & Footers  
 
-## skills used
+## Skills used
 
 - HTML5  
 - CSS3  
