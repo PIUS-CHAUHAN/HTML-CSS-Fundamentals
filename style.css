@@ -2,71 +2,93 @@
   margin: 0;
   border: border-box;
   font-family: arial;
-  
+
 }
 
+/* navabar */
 .navbar {
   background-color: black;
   height: 60px;
   display: flex;
   justify-content: space-evenly;
 }
-.searchbar{
+
+.amazonlogo {
+  display: inline-block;
   height: 60px;
-  width:600px;
-display:flex;
+  width: 130px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+
+  background-image: url("/Amazon-Emblem.jpg");
+  background-size: cover;
+}
+
+.searchbar {
+  height: 60px;
+  width: 600px;
+  display: flex;
 
 }
-.account{
+
+.account {
   height: 60px;
-  width:150px;
-  color:white;
-  
+  width: 150px;
+  color: white;
+
 
 }
-#acc{
+
+#acc {
   margin-top: 7px;
 
 }
-.orders{
+
+.orders {
   height: 60px;
-  width:100px;
-  color:white;
+  width: 100px;
+  color: white;
 
 }
-#order{
+
+#order {
   margin-top: 7px;
 }
-.cart{
+
+.cart {
   height: 60px;
-  width:80px;
+  width: 80px;
   font-size: 40px;
   display: flex;
-justify-content: center;
-font-size: 40px;
+  justify-content: center;
+  font-size: 40px;
 
 
 }
-.adress{
-    
+
+.adress {
+
   height: 60px;
   width: 130px;
   margin-left: 60px;
   margin-bottom: 5px;
-  color:white;
+  color: white;
 }
-#address{
+
+#address {
 
   display: flex;
   justify-content: center;
   margin-top: 5px;
 }
-#addres{
+
+#addres {
   display: flex;
   justify-content: center;
-margin-top: 6px;
+  margin-top: 6px;
 }
 
+/* navabar2 */
 .navbar2 {
   background-color: #232F3E;
   height: 40px;
@@ -96,6 +118,7 @@ h2 {
   border: 2px solid white;
 }
 
+/* background pic  */
 .pic1 {
   background-image: url("/pic1.jpg");
   background-size: cover;
@@ -104,17 +127,7 @@ h2 {
 
 }
 
-.amazonlogo {
-  display: inline-block;
-  height: 60px;
-  width: 130px;
-  margin-left: 10px;
-  margin-bottom: 5px;
-
-  background-image: url("/Amazon-Emblem.jpg");
-  background-size: cover;
-}
-
+/* adds  */
 .products {
   display: flex;
   background-color: rgba(0, 0, 0, 0.062);
@@ -178,13 +191,14 @@ h2 {
   width: 335px;
 }
 
+/* footer  */
 #initialfooter {
   background-color: #37475A;
   height: 40px;
   font-size: 14px;
   text-align: center;
   color: white;
-  /* margin-top:px; */
+
 }
 
 .footer1 {
