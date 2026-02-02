@@ -1,251 +1,315 @@
 * {
-  margin: 0;
-  border: border-box;
-  font-family: arial;
+    margin: 0;
+    border: border-box;
+    font-family: arial;
 
 }
 
 /* navabar */
 .navbar {
-  background-color: black;
-  height: 60px;
-  display: flex;
-  justify-content: space-evenly;
+    background-color: black;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .amazonlogo {
-  display: inline-block;
-  height: 60px;
-  width: 130px;
-  margin-left: 10px;
-  margin-bottom: 5px;
+    display: inline-block;
+    height: 60px;
+    width: 130px;
+    margin-left: 10px;
+    margin-bottom: 5px;
 
-  background-image: url("/Amazon-Emblem.jpg");
-  background-size: cover;
+    background-image: url("/assets/Amazon-Emblem.jpg");
+    background-size: cover;
 }
 
 .searchbar {
-  height: 60px;
-  width: 600px;
-  display: flex;
-
+    height: 60px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+#all {
+    height: 40px;
+    width: 60px;
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+#all select {
+    width: 50px;
+    height: 35px;
+    background-color: #f3f3f3;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+#all select:hover {
+    background-color: #ddd;
+}
+
+#search {
+    height: 40px;
+    width: 480px;
+    display: flex;
+    align-items: center;
+}
+
+#search textarea {
+    width: 100%;
+    height: 20px;
+    padding: 10px;
+    font-size: 14px;
+    font-family: arial;
+    
+}
+
+
+
+#logo {
+    height: 40px;
+    width: 50px;
+    background-color: #febd69;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+#logo i {
+    font-size: 20px;
+    color: #000;
+}
+
+
 .account {
-  height: 60px;
-  width: 150px;
-  color: white;
+    height: 60px;
+    width: 150px;
+    color: white;
 
 
 }
 
 #acc {
-  margin-top: 7px;
+    margin-top: 7px;
 
 }
 
 .orders {
-  height: 60px;
-  width: 100px;
-  color: white;
+    height: 60px;
+    width: 100px;
+    color: white;
 
 }
 
 #order {
-  margin-top: 7px;
+    margin-top: 7px;
 }
 
 .cart {
-  height: 60px;
-  width: 80px;
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
+    height: 60px;
+    width: 80px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
 
 
 }
 
 .adress {
 
-  height: 60px;
-  width: 130px;
-  margin-left: 60px;
-  margin-bottom: 5px;
-  color: white;
+    height: 60px;
+    width: 130px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    color: white;
 }
 
 #address {
 
-  display: flex;
-  justify-content: center;
-  margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
 }
 
 #addres {
-  display: flex;
-  justify-content: center;
-  margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
 }
 
 /* navabar2 */
 .navbar2 {
-  background-color: #232F3E;
-  height: 40px;
-  display: flex;
+    background-color: #232F3E;
+    height: 40px;
+    display: flex;
 }
 
 #whiteborder:hover {
-  border: 2px solid white;
+    border: 2px solid white;
 }
 
 h2 {
-  color: black;
-  text-align: center;
+    color: black;
+    text-align: center;
 }
 
 #header2 {
-  display: inline-block;
-  font-size: 14px;
-  color: white;
-  height: 38.5px;
-  margin: 0px 10px 0px 10px;
-  align-content: center;
-  border: 1.5px solid transparent;
+    display: inline-block;
+    font-size: 14px;
+    color: white;
+    height: 38.5px;
+    margin: 0px 10px 0px 10px;
+    align-content: center;
+    border: 1.5px solid transparent;
 }
 
 #header2:hover {
-  border: 2px solid white;
+    border: 2px solid white;
 }
 
 /* background pic  */
 .pic1 {
-  background-image: url("/pic1.jpg");
-  background-size: cover;
-  height: 300px;
+    background-image: url("/assets/pic1.jpg");
+    background-size: cover;
+    height: 300px;
 
 
 }
 
 /* adds  */
 .products {
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.062);
-  height: 450px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.062);
+    height: 450px;
 }
 
 .products2 {
-  display: flex;
-  background-color: rgba(0, 0, 0, 0.062);
-  height: 500px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.062);
+    height: 500px;
 
 }
 
 #picinside {
-  width: 280px;
-  height: 280px;
-  display: inline-block;
-  margin: 27px;
-  background-size: cover;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    margin: 27px;
+    background-size: cover;
 }
 
 .pics1 {
-  background-image: url("/download.jpg");
+    background-image: url("/assets/download.jpg");
 }
 
 .pics2 {
-  background-image: url("/download\ \(1\).jpg");
+    background-image: url("/assets/download\ \(1\).jpg");
 }
 
 .pics3 {
-  background-image: url("/download\ \(2\).jpg");
+    background-image: url("/assets/download\ \(2\).jpg");
 }
 
 .pics4 {
-  background-image: url("/download\ \(3\).jpg");
+    background-image: url("/assets/download\ \(3\).jpg");
 }
 
 .pics5 {
-  background-image: url("/download\ \(4\).jpg");
+    background-image: url("/assets/download\ \(4\).jpg");
 }
 
 .pics6 {
-  background-image: url("/download\ \(5\).jpg");
+    background-image: url("/assets/download\ \(5\).jpg");
 }
 
 .pics7 {
-  background-image: url("/download\ \(7\).jpg");
+    background-image: url("/assets/download\ \(7\).jpg");
 }
 
 .pics8 {
-  background-image: url("/images.jpg");
+    background-image: url("/assets/images.jpg");
 }
 
 .pr {
-  display: inline-block;
-  background-color: white;
-  margin: 45px 22px 20px 22px;
-  justify-content: space-evenly;
+    display: inline-block;
+    background-color: white;
+    margin: 45px 22px 20px 22px;
+    justify-content: space-evenly;
 
-  height: 400px;
-  width: 335px;
+    height: 400px;
+    width: 335px;
 }
 
 /* footer  */
 #initialfooter {
-  background-color: #37475A;
-  height: 40px;
-  font-size: 14px;
-  text-align: center;
-  color: white;
+    background-color: #37475A;
+    height: 40px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
 
 }
 
 .footer1 {
-  height: 400px;
-  background-color: #232F3E;
-  display: flex;
+    height: 400px;
+    background-color: #232F3E;
+    display: flex;
 
 }
 
 .skip {
-  height: 400px;
-  width: 150px;
-  display: inline-block;
+    height: 400px;
+    width: 150px;
+    display: inline-block;
 }
 
 .taken {
-  margin: 50px 0px 50px 0px;
-  height: 300px;
-  width: 200px;
-  display: inline-block;
-  font-size: 14px;
+    margin: 50px 0px 50px 0px;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    font-size: 14px;
 
 }
 
 #one {
-  color: white;
-  text-align: left;
+    color: white;
+    text-align: left;
 }
 
 
 #end1 {
-  /* border:0.1px solid white; */
-  height: 0.8px;
-  background-color: white;
+    /* border:0.1px solid white; */
+    height: 0.8px;
+    background-color: white;
 
 }
 
 #end2 {
-  height: 100px;
-  background-color: #131A22;
-  display: flex;
+    height: 100px;
+    background-color: #131A22;
+    display: flex;
 
 }
 
 #two {
-  display: inline-block;
-  color: white;
-  margin: 30px 550px 0px 550px;
+    display: inline-block;
+    color: white;
+    margin: 30px 550px 0px 550px;
 
 }
